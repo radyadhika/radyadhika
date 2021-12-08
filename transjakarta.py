@@ -78,7 +78,7 @@ for i in range(len(list_bulan)):
     #print(f"Bulan {bulan}, total penumpang: {jumlah_perbulan}")
     total_perbulan.append(int(jumlah_perbulan))
 
-cmap_name = 'tab20'
+cmap_name = 'tab20c'
 cmap = cm.get_cmap(cmap_name)
 colors = cmap.colors[:len(list_bulan)]
 fig, ax = plt.subplots()
